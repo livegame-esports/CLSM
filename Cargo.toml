@@ -1,0 +1,9 @@
+[package]
+name = "clsm"
+description = "CLSM - Command Line Server Manager"
+authors = ["Muhammaddiyor Tohirov <mtohirov60@gmail.com> (www.takhirov.uz)"]
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3.2.5", features = ["derive"] }
